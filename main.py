@@ -12,7 +12,7 @@ from time import sleep,time
 import database as db
 
 
-token = '5483461372:AAGuQS8VYFbnXX0A8MqChL7eu_FJE0pv72Q'
+token = 'bot api'
 bot = telebot.TeleBot(token)
 def delete(file):#удаляем созданный CSV файл
     os.remove(file)
